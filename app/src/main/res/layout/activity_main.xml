@@ -26,10 +26,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:textColor="@color/white"
+            android:text="Welcome"
             android:textAlignment="center"
-            android:textSize="50dp"
-            android:text="Welcome" />
+            android:textColor="@color/white"
+            android:textSize="50dp" />
 
         <EditText
             android:id="@+id/input_username"
@@ -59,42 +59,42 @@
             android:id="@+id/login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#328EFE"
-            android:text="Login"
-            android:padding="10dp"
             android:layout_marginTop="16dp"
-            android:textSize="20dp"/>
+            android:backgroundTint="#328EFE"
+            android:padding="10dp"
+            android:text="Login"
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/social"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18dp"
-            android:text="Social Login"
+            android:layout_marginTop="12dp"
+            android:text="Or login with"
             android:textColor="@color/white"
-            android:layout_marginTop="32dp"/>
-        
+            android:textSize="18dp" />
+
         <LinearLayout
             android:id="@+id/imagelayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_marginTop="8dp"
-            android:gravity="center">
-            
+            android:gravity="center"
+            android:orientation="horizontal">
+
             <ImageView
                 android:id="@+id/image_fb"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_margin="16dp"
-                android:src="@drawable/fb"/>
+                android:src="@drawable/fb" />
 
             <ImageView
                 android:id="@+id/image_gmail"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_margin="16dp"
-                android:src="@drawable/gmail"/>
+                android:src="@drawable/gmail" />
 
         </LinearLayout>
 
@@ -102,13 +102,20 @@
             android:id="@+id/logout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:backgroundTint="#328EFE"
             android:padding="10dp"
-            android:visibility="invisible"
-            android:text="logout"
-            android:textSize="20dp" />
+            android:text="Logout"
+            android:textSize="20dp"
+            android:visibility="invisible" />
 
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="Nguyen Ngoc Tuan - 22115053122146"
+            />
     </LinearLayout>
 </RelativeLayout>
